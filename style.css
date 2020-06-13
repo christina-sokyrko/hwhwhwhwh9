@@ -1,0 +1,783 @@
+html {
+  font-family: 'Lato'
+}
+div {
+}
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 720px) {
+  .wrapper {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.box-1 {
+  max-width: 100%;
+  background-color: #F4F6F9;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 720px) {
+  .box-1 {
+    margin-bottom: 50px;
+  }
+}
+.box-1-left {
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+@media (max-width: 720px) {
+  .box-1-left {
+    width: 100%;
+    padding: 20px;
+  }
+}
+.sports {
+  display: flex;
+  flex-direction: row;
+  margin-left: 163px;
+  margin-top: 30px;
+}
+@media (max-width: 720px){
+  .sports {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.ball-pic {
+  height:25px;
+}
+.sports-text {
+  font-size: 24px;
+  color: #5282F0;
+  margin-left: 5px;
+  margin-top: -1px;
+}
+.box-1-text-big {
+  font-size: 36px;
+  margin-left: 163px;
+  margin-top: 75px;
+}
+@media (max-width: 720px) {
+  .box-1-text-big {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.box-1-text-small {
+  font-size: 18px;
+  margin-left: 163px;
+
+}
+@media (max-width: 720px) {
+  .box-1-text-small {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.box-1-buttons {
+  margin-left: 163px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 720px) {
+  .box-1-buttons {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+button {
+  border: transparent;
+  background: transparent;
+
+}
+.applestore-pic:hover {
+  height: 60px;
+}
+@media (max-width: 720px) {
+  .applestore-pic {
+    height: 30px;
+  }
+}
+.googleplay-pic {
+  margin-left: 30px;
+}
+.googleplay-pic:hover {
+  height: 60px;
+}
+@media (max-width: 720px) {
+  .googleplay-pic {
+    height: 30px;
+  }
+  .googleplay-pic:hover {
+    height: 45px;
+  }
+}
+.box-1-right {
+width:50%;
+
+}
+@media (max-width: 720px) {
+  .box-1-right {
+    display: none;
+  }
+}
+.phones-pic {
+  height: 800px;
+  margin-top: -170px;
+
+}
+
+.box-2 {
+  max-width: 100%;
+  height: 592px;
+  display: flex;
+  flex-direction: row;
+
+}
+@media (max-width: 720px) {
+  .box-2 {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+}
+.box-2-left {
+background-image: url(images/main-1/main-1-background-2.png);
+width: 50%;
+display: flex;
+align-items: baseline;
+
+}
+@media (max-width: 720px) {
+  .box-2-left {
+    background-image: url(images/main-1/main-1-background-2.png);
+    width: 100%;
+    background-size: cover;
+    order: 2;
+    padding: 30px;
+  }
+}
+.layer {
+  position: relative;
+}
+.arsenal-chelsea {
+  width: 360px;
+  height: 218px;
+  background-color: white;
+  margin-top: 90px;
+  margin-bottom: -30px;
+  margin-left: 170px;
+  z-index: 5;
+  position: absolute;
+}
+@media (max-width: 720px) {
+  .arsenal-chelsea {
+    margin-left: 0;
+    width: 300px;
+    height: 160px;
+    position: absolute;
+  }
+}
+.a-ch-content {
+  display: flex;
+  justify-content: space-around;
+}
+.graytext-1 {
+  font-size: 16px;
+  color: #4F4F4F;
+}
+
+.eightteen {
+  font-size: 18px;
+}
+
+.sixteen {
+  font-size: 16px;
+}
+
+.a-ch {
+  height: 100px;
+  margin-top: 40px;
+}
+
+.gray-back-1 {
+display: flex;
+justify-content: space-around;
+background-color: #EEEEEE;
+padding-top: 25px;
+height: 50px;
+z-index: 5;
+}
+
+
+.notif-text {
+  font-size: 18px;
+  color: #4F4F4F;
+  margin: 10px;
+  margin-top: -3px;
+
+}
+
+.slider-round {
+  margin: 10px;
+
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  border: transparent solid 1px;
+  border-radius: 100px;
+
+}
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+    border-radius: 100px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 0px;
+  bottom: 0px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: transparent solid 1px;
+  border-radius: 100px;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.video {
+  background-image: url(images/main-1/football-video.svg);
+  width: 360px;
+  height: 218px;
+  margin-left: 270px;
+  margin-top: 280px;
+  z-index: 0;
+  position: absolute;
+}
+@media (max-width: 720px){
+  .video {
+    margin-left: 20px;
+    width: 300px;
+    height: 160px;
+    position: absolute;
+  }
+}
+.gray-back {
+  margin-top: 170px;
+}
+
+@media (max-width: 720px) {
+  .box-2-right {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+.box-2-right-text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bluetext-1 {
+  font-size: 16px;
+  color: #00ADEE;
+}
+.thirty-seven {
+  font-size: 37px;
+}
+.sixteen-2 {
+  font-size: 16px;
+  color: #4F4F4F;
+}
+.bluetext-2 {
+  font-size: 16px;
+  color: #00ADEE;
+  text-decoration: none;
+}
+.bluetext-2:hover {
+  color: red;
+}
+.box-3 {
+  max-width: 100%;
+  height: 716px;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 720px) {
+  .box-3 {
+    flex-direction: column;
+    margin-top: 600px;
+    margin-bottom: 400px;
+
+  }
+}
+.box-3-left {
+  width: 50%;
+}
+@media (max-width: 720px) {
+  .box-3-left {
+    width: 100%;
+    margin-left: -100px;
+  }
+}
+.box-3-left-text {
+  width: 80%;
+  margin-left: 163px;
+  margin-top: 100px;
+
+}
+.box-3-right {
+  width: 50%;
+  padding: 40px;
+
+  }
+@media (max-width: 720px) {
+  .box-3-right {
+    width: 100%;
+  }
+}
+  @media (max-width: 720px) {
+  .mobile-pic {
+    height:250px;
+}
+}
+.box-3-pics {
+  position: relative;
+  z-index: -1;
+}
+.circle-1 {
+position: absolute;
+margin-left: -600px;
+margin-top: 50px;
+}
+  @media (max-width: 720px) {
+  .circle-1  {
+    margin-left: -210px;
+    margin-top: 15px;
+  }
+  .icon-bell {
+    height: 50px;
+  }
+  }
+
+.circle-2 {
+position: absolute;
+margin-left: -330px;
+margin-top: 530px;
+}
+@media (max-width: 720px) {
+.circle-2  {
+  margin-left: -130px;
+  margin-top: 180px;
+}
+.icon-phone {
+  height: 50px;
+}
+}
+
+.box-4 {
+  max-width: 100%;
+  background-image: url(images/main-3/background.png);
+  display: flex;
+  flex-direction: column;
+  }
+  @media (max-width: 720px) {
+    .box-4 {
+      background: #FAFAFA;
+      margin-bottom: 50px;
+    }
+  }
+.box-4-header {
+  font-size: 28px;
+  color: white;
+  width: 508px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 720px) {
+  .box-4-header {
+    color: #333333;
+    width: 320px;
+  }
+}
+.box-4-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .box-4-content {
+    display: flex;
+    flex-direction: column;
+    color: #4F4F4F;
+  }
+}
+.features-text {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 720px) {
+  .features-text {
+    color: #4F4F4F;
+    text-decoration: none;
+  }
+}
+.content-column {
+  padding: 30px;
+}
+
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-1{
+    fill: #00ADEE;
+    }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-2{
+    fill: #00ADEE;
+  }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-3{
+    fill: #00ADEE;
+  }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-4{
+    fill: #00ADEE;
+  }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-5{
+    fill: #00ADEE;
+  }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-6{
+    fill: #00ADEE;
+  }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-7{
+    fill: #00ADEE;
+  }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-8{
+    fill: #00ADEE;
+  }
+}
+@media (max-width: 720px) {
+  .box-4-icon svg #icon-9{
+    fill: #00ADEE;
+  }
+}
+
+
+.box-5 {
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+.what-our-users-say {
+  font-size: 28px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.users {
+  display: flex;
+  justify-content: space-around;
+}
+.arrow-button-left {
+  height: 50px;
+  width: 50px;
+  border: solid #00ADEE 2px;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+.arrow-button-left:hover {
+  height: 70px;
+  width: 70px;
+}
+@media (max-width: 720px) {
+  .arrow-button-left {
+    display: none;
+  }
+}
+.arrow-button-right {
+  background-image: url(images/main-4/arrrow.svg);
+  height: 50px;
+  width: 50px;
+  border: solid #00ADEE 2px;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+@media (max-width: 720px) {
+  .arrow-button-right {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+}
+#arrow-right {
+  transform: rotate(180deg);
+}
+.arrow-button-right:hover {
+  height: 70px;
+  width: 70px;
+}
+.user-box {
+  text-decoration: none;
+}
+.user-say {
+  border: 1px solid #828282;
+  border-radius: 4px;
+  width: 340px;
+  padding: 10px;
+  color:#4F4F4F;
+  text-decoration: none;
+}
+@media (max-width: 720px) {
+  .user-say {
+    width: 280px;
+    padding: 10px;
+  }
+}
+@media (max-width: 720px) {
+  #user-say-2, #user-say-3 {
+    display: none;
+  }
+}
+.user-say:hover {
+  border: solid #00ADEE 3px;
+}
+.user-header {
+  display: flex;
+  flex-direction: row;
+}
+.user-face {
+  height: 30px;
+
+}
+.user-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.icon-twitter {
+  height: 15px;
+  margin-left: 140px;
+
+}
+.user-text {
+  width: 320px;
+
+}
+@media (max-width: 720px) {
+  .user-text {
+    width: 280px;
+  }
+}
+.box-6 {
+  max-width: 100%;
+  background-color: #FAFAFA;
+  height: 278px;
+  margin-top: 50px;
+}
+@media (max-width: 720px) {
+  .box-6 {
+    margin-bottom: 50px;
+  }
+}
+.box-6-header {
+  font-size: 28px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-6-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+@media (max-width: 720px) {
+  .box-6-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    padding: 20px;
+  }
+}
+.icon-icon {
+  height: 30px;
+}
+@media (max-width: 720px) {
+  .icon-icon {
+    margin: 10px;
+  }
+}
+.box-7 {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 720px) {
+.box-7 {
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+}
+.box-7-left {
+  width: 50%;
+}
+@media (max-width: 720px) {
+.box-7-left {
+  width:100%;
+  display: flex;
+  order: 2;
+}
+@media (max-width: 720px) {
+.phones-2-pic {
+  height: 250px;
+  }
+}
+
+}
+.box-7-right {
+  width: 50%;
+}
+@media (max-width: 720px) {
+.box-7-right {
+  width: 100%;
+  padding: 20px;
+
+}
+}
+.box-7-right-content {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 720px) {
+  .box-7-right-content {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.box-7-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.googleplay-2-pic {
+  margin-left: 30px;
+}
+.box-8 {
+  max-width: 100%;
+  min-height: 127px;
+  background-color: #00ADEE;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 720px) {
+  .box-8 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+.sports-2 {
+  width: 90px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.ballpic-2 {
+  height:25px;
+  margin-right: 5px;
+}
+.sports-2-text {
+  font-size: 24px;
+  color: white;
+  margin-left: 5px;
+  margin-top: -1px;
+}
+.properties {
+  width: 420px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.prop {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 720px)  {
+  .properties {
+    width: 320px;
+  }
+}
+.media-icons {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
